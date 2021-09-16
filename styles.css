@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( #ffecd2 , #fcb69f);
+    color: rgb(95, 95, 95);
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+form{
+    width: 80%;
+    margin: 2em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputQuery {
+    width: 50%;
+    height: 3em;
+    background: transparent;
+    padding: .5em;
+    border: none;
+    border-bottom: rgb(95, 95, 95) solid .1em;
+    outline: none;
+}
+
+.inputQuery:focus {
+    background-color: transparent;
+}
+
+.inputQuery::placeholder {
+    font-size: 2rem;
+    color: rgba(95, 95, 95, 0.466);
+    text-align: center;
+    background: transparent;
+}
+
+button#submit {
+    padding: .5em 2em;
+    margin-left: 2em;
+    border: none;
+    background: #fff;
+    border-radius: .5em;
+    color: #fcb69f;
+}
+
+
+.container {
+    height: 80%;
+    width: 80%;
+    padding: 2em;
+    margin-top: 5rem;
+    min-width: 20em;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-container {
+   width: 60vw;
+   height: 50vh;
+    height: 20em;
+    margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(7em, 1fr));
+   gap: .75em;
+}
+
+.card {
+    font-size: 1.2rem;
+    height: 10em;
+    width: 10em;
+    padding: 0.5em;
+    margin: 0 .25em;
+    border-radius: 1em;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.card__temp {
+    display: flex; 
+    font-size: 2em;
+}
+
+.card__temp span {
+    font-size: 1rem;
+}
+
+.card__icon {
+    height: 3em;
+    width: 3em;
+}
+
