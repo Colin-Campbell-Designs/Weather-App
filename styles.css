@@ -27,6 +27,11 @@ form{
     justify-content: center;
 }
 
+.header {
+    text-align: center;
+    padding: 1em;
+}
+
 .inputQuery {
     width: 50%;
     height: 3em;
