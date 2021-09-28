@@ -41,7 +41,7 @@ form.addEventListener('submit', e => {
             <div class="card__dis">${data.weather[0].description}</div>
        `
 
-       card__icon.setAttribute('src',`/icons/${data.weather[0].icon}.png`)
+       card__icon.setAttribute('src',`icons/${data.weather[0].icon}.png`)
        card.prepend(card__icon);
        card_container.appendChild(card)
    }
