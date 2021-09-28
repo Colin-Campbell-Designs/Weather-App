@@ -119,5 +119,9 @@ button#submit {
     .card-container {
         height: 100%;
     }
+    .header {
+        text-align: center;
+        padding: 1em;
+    }
 }
 
