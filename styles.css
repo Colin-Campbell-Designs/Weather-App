@@ -109,3 +109,10 @@ button#submit {
     width: 3em;
 }
 
+@media(max-width: 1066px ){
+    
+    .card-container {
+        height: 100%;
+    }
+}
+
